@@ -10,7 +10,7 @@ class CV extends Component{
 			<i>271/34 TRINH DINH TRONG STREET, TAN PHU DISTRICT, HO CHI MINH CITY</i>
 		</div>
 		<div id="contact">
-			<i>093-153-6430 • MINHNGON01@EMAIL.COM</i>
+			<i>093-153-6430 • MINHNGON01@GMAIL.COM</i>
 		</div>
 
 		<h1 className="myname"> <i>DANG MINH NGON</i>	</h1>
@@ -26,7 +26,7 @@ class CV extends Component{
 				<p>- Programming languages: </p>
 					<div class="content">
 						<ul>
-							<li>C++, Python, Java, <a href = "js_exercise.html">JavaScript</a></li>
+							<li>C++, Python, Java, <Link to="/JS">JavaScript</Link></li>
 							<li>HTML5, CSS3</li>
 						</ul>
 					</div>

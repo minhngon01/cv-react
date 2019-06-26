@@ -1,0 +1,62 @@
+#address{	
+	text-align: center;
+	padding-top:2.5em;
+	font-size: 20px;
+}
+#contact{
+	text-align:center;
+	margin-top:5px;
+	font-size: 20px;
+}
+
+h1{
+	border-bottom:3px double #000;
+}
+
+.exercise {
+	margin-left: 20px;
+}
+
+.indent-text{
+	text-indent: 50px;
+}
+
+table, th, td {
+  border: 1px solid black;
+
+}
+
+.table-io{
+	width:95%;
+	margin-left: 30px;
+}
+
+textarea{
+	width: 95%;
+	margin-left: 30px;
+}
+
+.process-btn{
+	margin-left: 30px;
+}
+
+.Collapsible__trigger{
+  background-color: #7FFFD4; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: left ;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 300px;
+}
+
+.Collapsible__contentOuter{
+	border: 1px solid black;
+	width: 1265px;
+}
+
+.Collapsible{
+	margin-top: 10px;
+}
