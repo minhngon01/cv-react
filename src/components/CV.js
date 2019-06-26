@@ -1,0 +1,101 @@
+import {Link} from 'react-router-dom';
+import React,{Component} from 'react';
+import '../styles/cv_style.css';
+
+class CV extends Component{
+  render(){
+    return(
+    <div className="body-CV">
+    	<div id="address">
+			<i>271/34 TRINH DINH TRONG STREET, TAN PHU DISTRICT, HO CHI MINH CITY</i>
+		</div>
+		<div id="contact">
+			<i>093-153-6430 • MINHNGON01@EMAIL.COM</i>
+		</div>
+
+		<h1 className="myname"> <i>DANG MINH NGON</i>	</h1>
+			
+		<div class="section">
+			<h2>JOB OBJECTIVE</h2>
+			<p>- To learn new things about AI, Machine learning, web design and also how to work in the real organization.</p>
+		</div>
+			
+		<div class="section">
+			<h2>TECHNICAL SKILLS</h2>
+				
+				<p>- Programming languages: </p>
+					<div class="content">
+						<ul>
+							<li>C++, Python, Java, <a href = "js_exercise.html">JavaScript</a></li>
+							<li>HTML5, CSS3</li>
+						</ul>
+					</div>
+
+					
+				<p>- Frameworks:</p>
+					<div class="content">
+						<ul>
+							<li>ReactJS</li>
+						</ul>
+					</div>
+
+				<p>- Version control:</p>
+					<div class="content">
+						<ul>
+							<li>Git (Github & Gitlab)</li>
+						</ul>
+					</div>
+
+				<p>- IDE:</p>
+					<div class="content">
+						<ul>
+							<li>Visual Studio 2013</li>
+							<li>Atom</li>
+							<li>Eclipse</li>
+						</ul>
+					</div>
+
+				<p>- Foreign languages:</p>
+					<div class="content">
+						<ul>
+							<li>English (IELTS 6.5)</li>
+						</ul>
+					</div>
+					
+				<p>- Soft Skills:</p>
+					<div class="content">
+						<ul>
+							<li>Teamwork</li>
+							<li>Time management</li>
+						</ul>
+					</div>
+
+			</div>
+			
+		<div class="section">
+			<h2>EDUCATION</h2>
+				<ul className="list-style">
+					<li>Bach Khoa University <i className="year">September 2016 - Present</i></li>
+					<li> Computer Science </li>
+				</ul>
+		</div>
+
+		<div class="section">
+			<h2>WORK EXPERIENCE</h2>
+				<p>- None</p>
+		</div>	
+
+		<div class="section">
+			<h2>PASTIME</h2>
+				<ul>
+					<li>Reading books and IT blogs</li>
+					<li>Soccer</li>
+					<li>Badminton</li>
+				</ul>
+		</div>
+	</div>
+   	)
+  }
+}
+export default CV;
+
