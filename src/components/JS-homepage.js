@@ -136,7 +136,7 @@ class JShomepage extends Component {
 	    else
 	    	console.log(remainCandy/(numPeople-1))
 	    	console.log(numPeople)
-	        return Math.floor(remainCandy + (remainCandy/(numPeople-1))) + " " + Math.floor(remainCandy + (remainCandy/(numPeople-1)))
+	        return Math.floor( parseInt(remainCandy) + parseInt((remainCandy/(numPeople-1)) )) + " " + Math.floor(parseInt(remainCandy) + parseInt((remainCandy/(numPeople-1))))
 	}
 
 	q7_loopChar(input){
