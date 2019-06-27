@@ -26,7 +26,7 @@ class CV extends Component{
 				<p>- Programming languages: </p>
 					<div class="content">
 						<ul>
-							<li>C++, Python, Java, <Link to="/JS">JavaScript</Link></li>
+							<li>C++, Python, Java, <Link to="/JShomepage">JavaScript</Link></li>
 							<li>HTML5, CSS3</li>
 						</ul>
 					</div>

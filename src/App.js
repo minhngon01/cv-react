@@ -18,7 +18,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Login from './components/Login';
 import CV from './components/CV';
-import JS from './components/JS';
+import JShomepage from './components/JS-homepage';
 
 class App extends Component {
 
@@ -30,7 +30,7 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Login} />
                 <Route path="/CV" component={CV}/>
-                <Route path="/JS" component={JS}/>
+                <Route path="/JShomepage" component={JShomepage}/>
               </Switch>
             </div>
           </BrowserRouter>

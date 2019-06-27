@@ -1,3 +1,4 @@
+
 import React,{Component} from 'react';
 import  { Redirect } from 'react-router-dom';
 import '../styles/main.css';
@@ -24,7 +25,7 @@ class Home extends Component{
 
   	requestToServer = (name, password) => {
   		var {username, password} = this.state;
-  		if (username == "vexere" && password == "vxr2019"){
+  		if (username === "vexere" && password === "vxr2019"){
   			this.setState({success : true});
   		}
   	}
@@ -38,7 +39,7 @@ class Home extends Component{
 	    		<section className="container-fluid">
 					<section className="row justify-content-center"> 
 						<section className="col-12 col-sm-6 col-md-3">
-							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOsFZNGZtDNmkVJtr6b0i5AsPIim7hx_G14P7ssN6g7XRDLz8Z" 
+							<img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOsFZNGZtDNmkVJtr6b0i5AsPIim7hx_G14P7ssN6g7XRDLz8Z" 
 							className="bg"/>
 
 							<form className="form-container">
