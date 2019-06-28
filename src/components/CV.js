@@ -1,11 +1,15 @@
 import {Link} from 'react-router-dom';
 import React,{Component} from 'react';
 import '../styles/cv_style.css';
+import Header from './layout/Header';
 
 class CV extends Component{
   render(){
     return(
+    <div>
+      <Header/>
     <div className="body-CV">
+
     	<div id="address">
 			<i>271/34 TRINH DINH TRONG STREET, TAN PHU DISTRICT, HO CHI MINH CITY</i>
 		</div>
@@ -14,15 +18,15 @@ class CV extends Component{
 		</div>
 
 		<h1 className="myname"> <i>DANG MINH NGON</i>	</h1>
-			
+
 		<div class="section">
 			<h2>JOB OBJECTIVE</h2>
 			<p>- To learn new things about AI, Machine learning, web design and also how to work in the real organization.</p>
 		</div>
-			
+
 		<div class="section">
 			<h2>TECHNICAL SKILLS</h2>
-				
+
 				<p>- Programming languages: </p>
 					<div class="content">
 						<ul>
@@ -31,7 +35,7 @@ class CV extends Component{
 						</ul>
 					</div>
 
-					
+
 				<p>- Frameworks:</p>
 					<div class="content">
 						<ul>
@@ -61,7 +65,7 @@ class CV extends Component{
 							<li>English (IELTS 6.5)</li>
 						</ul>
 					</div>
-					
+
 				<p>- Soft Skills:</p>
 					<div class="content">
 						<ul>
@@ -71,7 +75,7 @@ class CV extends Component{
 					</div>
 
 			</div>
-			
+
 		<div class="section">
 			<h2>EDUCATION</h2>
 				<ul className="list-style">
@@ -83,7 +87,7 @@ class CV extends Component{
 		<div class="section">
 			<h2>WORK EXPERIENCE</h2>
 				<p>- None</p>
-		</div>	
+		</div>
 
 		<div class="section">
 			<h2>PASTIME</h2>
@@ -94,8 +98,8 @@ class CV extends Component{
 				</ul>
 		</div>
 	</div>
+  </div>
    	)
   }
 }
 export default CV;
-

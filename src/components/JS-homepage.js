@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../styles/js_exercise.css';
 import Exercise from './Exercise';
 import image from './5.jpg';
-
+import Header from './layout/Header';
 class JShomepage extends Component {
 
 	constructor(props){
@@ -82,10 +82,9 @@ class JShomepage extends Component {
 
 	q3_RoundNumber(input){
 	    var num = input;
-	    var output = document.getElementById("ex3-output");
 	    let previous = 0, temp = 0, count = 1;
 
-	    while(parseInt(num/10) != 0) {
+	    while(parseInt(num/10) !== 0) {
 	      temp = num % 10 + previous;
 	      if (temp >= 5) previous = 1;
 	      else previous = 0;
@@ -167,7 +166,7 @@ class JShomepage extends Component {
 	    var num = input;
 	    let count = 0;
 	    for (var i=2; i <= num; i++){
-	        if (num%i==0)
+	        if (num%i === 0)
 	            count++;
 	    }
 	    if (count === 2 ) return "YES";
@@ -344,7 +343,7 @@ class JShomepage extends Component {
 
 					</table>
 					<p> Hình vẽ giải thích test </p>
-					<img src={image}/>
+					<img alt = ""src={image}/>
 		</div>
 
 		const ex6 =
@@ -499,6 +498,7 @@ class JShomepage extends Component {
 
 		return(
 		<div className="">
+				<Header/>
 	  		<div>
 			  	<div id="address">
 					<i>271/34 TRINH DINH TRONG STREET, TAN PHU DISTRICT, HO CHI MINH CITY</i>
