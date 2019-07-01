@@ -5,100 +5,101 @@ import Header from './layout/Header';
 
 class CV extends Component{
   render(){
+    console.log(this.props.name)
     return(
     <div>
-      <Header/>
-    <div className="body-CV">
+        <Header name = {"vexere"} link={<Link to="/">Sign out</Link>}/>
+        <div className="body-CV">
 
-    	<div id="address">
-			<i>271/34 TRINH DINH TRONG STREET, TAN PHU DISTRICT, HO CHI MINH CITY</i>
-		</div>
-		<div id="contact">
-			<i>093-153-6430 • MINHNGON01@GMAIL.COM</i>
-		</div>
+        <div id="address">
+    			<i>271/34 TRINH DINH TRONG STREET, TAN PHU DISTRICT, HO CHI MINH CITY</i>
+    		</div>
 
-		<h1 className="myname"> <i>DANG MINH NGON</i>	</h1>
+    		<div id="contact">
+    			<i>093-153-6430 • MINHNGON01@GMAIL.COM</i>
+    		</div>
 
-		<div class="section">
-			<h2>JOB OBJECTIVE</h2>
-			<p>- To learn new things about AI, Machine learning, web design and also how to work in the real organization.</p>
-		</div>
+    		<h1 className="myname"> <i>ĐẶNG MINH NGÔN</i>	</h1>
 
-		<div class="section">
-			<h2>TECHNICAL SKILLS</h2>
+    		<div className="section">
+    			<h2>JOB OBJECTIVE</h2>
+    			<p>- To learn new things about AI, Machine learning, web design and also how to work in the real organization.</p>
+    		</div>
 
-				<p>- Programming languages: </p>
-					<div class="content">
-						<ul>
-							<li>C++, Python, Java, <Link to="/JShomepage">JavaScript</Link></li>
-							<li>HTML5, CSS3</li>
-						</ul>
-					</div>
+    		<div className="section">
+    			<h2>TECHNICAL SKILLS</h2>
 
+    				<p>- Programming languages: </p>
+    					<div className="content">
+    						<ul>
+    							<li>C++, Python, Java, <Link to="/JShomepage">JavaScript</Link></li>
+    							<li>HTML5, CSS3</li>
+    						</ul>
+    					</div>
 
-				<p>- Frameworks:</p>
-					<div class="content">
-						<ul>
-							<li>ReactJS</li>
-						</ul>
-					</div>
+    				<p>- Frameworks:</p>
+    					<div className="content">
+    						<ul>
+    							<li>ReactJS</li>
+    						</ul>
+    					</div>
 
-				<p>- Version control:</p>
-					<div class="content">
-						<ul>
-							<li>Git (Github & Gitlab)</li>
-						</ul>
-					</div>
+    				<p>- Version control:</p>
+    					<div className="content">
+    						<ul>
+    							<li>Git (Github & Gitlab)</li>
+    						</ul>
+    					</div>
 
-				<p>- IDE:</p>
-					<div class="content">
-						<ul>
-							<li>Visual Studio 2013</li>
-							<li>Atom</li>
-							<li>Eclipse</li>
-						</ul>
-					</div>
+    				<p>- IDE:</p>
+    					<div className="content">
+    						<ul>
+    							<li>Visual Studio 2013</li>
+    							<li>Atom</li>
+    							<li>Eclipse</li>
+    						</ul>
+    					</div>
 
-				<p>- Foreign languages:</p>
-					<div class="content">
-						<ul>
-							<li>English (IELTS 6.5)</li>
-						</ul>
-					</div>
+    				<p>- Foreign languages:</p>
+    					<div className="content">
+    						<ul>
+    							<li>English (IELTS 6.5)</li>
+    						</ul>
+    					</div>
 
-				<p>- Soft Skills:</p>
-					<div class="content">
-						<ul>
-							<li>Teamwork</li>
-							<li>Time management</li>
-						</ul>
-					</div>
+    				<p>- Soft Skills:</p>
+    					<div className="content">
+    						<ul>
+    							<li>Teamwork</li>
+    							<li>Time management</li>
+    						</ul>
+    					</div>
 
-			</div>
+    			</div>
 
-		<div class="section">
-			<h2>EDUCATION</h2>
-				<ul className="list-style">
-					<li>Bach Khoa University <i className="year">September 2016 - Present</i></li>
-					<li> Computer Science </li>
-				</ul>
-		</div>
+    		<div className="section">
+    			<h2>EDUCATION</h2>
+    				<ul className="list-style">
+    					<li>Bach Khoa University <i className="year">September 2016 - Present</i></li>
+    					<li> Computer Science </li>
+    				</ul>
+    		</div>
 
-		<div class="section">
-			<h2>WORK EXPERIENCE</h2>
-				<p>- None</p>
-		</div>
+    		<div className="section">
+    			<h2>WORK EXPERIENCE</h2>
+    				<p>- None</p>
+    		</div>
 
-		<div class="section">
-			<h2>PASTIME</h2>
-				<ul>
-					<li>Reading books and IT blogs</li>
-					<li>Soccer</li>
-					<li>Badminton</li>
-				</ul>
-		</div>
-	</div>
-  </div>
+    		<div className="section">
+    			<h2>PASTIME</h2>
+    				<ul>
+    					<li>Reading books and IT blogs</li>
+    					<li>Soccer</li>
+    					<li>Badminton</li>
+    				</ul>
+    		</div>
+    	</div>
+    </div>
    	)
   }
 }

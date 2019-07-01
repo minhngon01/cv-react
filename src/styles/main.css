@@ -1,39 +1,47 @@
 .bg{
-	height: 130px;
-	width: 130px;
-	position: absolute;
+	height: 9em;
+	width: 9em;
+	margin-top: -7em;
+	margin-left: 6em;
 	border-radius: 50%;
-	left: 35%;
-	top: -20%;
+}
+
+
+html, body{
+	height: 100%;
+	position: relative;
+	background-image: linear-gradient(to right, #4ca1af , #185a9d, #4ca1af);
+	background-size: cover;
+	height: 100%;
 }
 
 .body-home{
-	background-image: linear-gradient(to right, #4ca1af , #185a9d, #4ca1af);
-	padding-top: 35vh;
-	height: 937px;
+
 }
 
-.form-group i {
-    margin: 0 5px;
+.form{
+	padding-top: 12em;
 }
 
 .form-container{
-	border-radius: 30px;
-	padding:30px;
-	box-shadow: 0px 0px 10px 0px;
+	border-radius: 2em;
+	padding:2em;
+	box-shadow: 0px 0px 1em 0px;
+	height: 30em;
+	width: 25em;
 }
 
 .form-check{
-	margin-top: 30px;
+	padding-top:2em;
 	text-align: center;
 }
 
 .need-margin{
-	margin-top: 4em;
+	margin-top: 2em;
 }
 
-.inner-addon { 
-    position: relative; 
+/* .inner-addon {
+    position: relative;
 }
 
 .inner-addon .fa {
@@ -45,16 +53,14 @@
  	left:  0px;
 
 }
-.left-addon input { 
+.left-addon input {
 	padding-left: 40px;
-}
+} */
 
 .left{
-	float:left;
+
 }
 
 .right{
-	float: right;
+
 }
-
-

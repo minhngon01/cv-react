@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-
 /*
   style
 */
@@ -19,6 +18,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/Login';
 import CV from './components/CV';
 import JShomepage from './components/JS-homepage';
+import CVguest from './components/guest/CVguest';
+import JSguest from './components/guest/JSguest';
+import Dashboard from './components/guest/Dashboard';
 
 class App extends Component {
 
@@ -28,9 +30,13 @@ class App extends Component {
           <BrowserRouter>
             <div className="App">
               <Switch>
-                <Route exact path="/" component={Login} />
+                <Route exact path="/" component={Login } />
                 <Route path="/CV" component={CV}/>
                 <Route path="/JShomepage" component={JShomepage}/>
+                <Route path="/Dashboard" component={Dashboard}/>
+                <Route path="/CVguest" component={CVguest}/>
+                <Route path="/JSguest" component={JSguest}/>
+
               </Switch>
             </div>
           </BrowserRouter>
